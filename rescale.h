@@ -11,12 +11,12 @@
 
 void rescale
 (
-    uint8_t *src,
-    uint8_t *dst,
-    uint32_t w_src,
-    uint32_t h_src,
-    uint32_t w_dst,
-    uint32_t h_dst
+        uint8_t *dst,
+  const uint8_t *src,
+        uint32_t w_dst,
+        uint32_t h_dst,
+        uint32_t w_src,
+        uint32_t h_src
 );
 
 #endif

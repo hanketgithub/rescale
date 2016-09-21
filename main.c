@@ -126,12 +126,12 @@ int main(int argc, char *argv[])
             
             rescale
             (
-                src,
                 dst,
-                w_src,
-                h_src,
+                src,
                 w_dst,
-                h_dst
+                h_dst,
+                w_src,
+                h_src
             );
             
             write(ofd, dst, frame_sz_dst);
